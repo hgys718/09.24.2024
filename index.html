@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<body style="background-color:#181818;"></body>
+<head >
+    <title>Layout Test</title>
+    <style>
+        img{
+            height: 150px;
+            width: auto;
+            border-radius: 40px;
+        }
+        .cell{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: #C4C4C4;
+            padding: 16px;
+            margin-top: 16px;
+            border-radius: 40px;
+            box-shadow: 0px 6px 10px rgb(255, 255, 255);
+            margin-bottom: 60px;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+        @font-face{
+            font-family: myFont;
+            src:url(PPPangramSansRounded-Medium.otf);
+         }
+        @font-face {
+            font-family: 'myFont';
+            font-style: bold;
+            font-weight: 700;
+            src:url(PPPangramSansRounded-Bold.otf);
+      }
+        @font-face {
+            font-family: 'myFont';
+            font-style: italic;
+            font-weight: 400;
+            src:url(PPPangramSansRounded-SlimSemiboldItalic.otf);
+      }
+        h1 {font-family: myFont;
+            color: #181818;
+        }
+        h2 {font-family: myFont;
+            color: #181818;
+        }
+        h3 {font-family: myFont;
+            color: #181818;
+        }
+        h4 {font-family: myFont;
+            color: #181818;
+        }
+        b {font-family: myFont;
+           color: #181818;
+        }
+    </style>
+</head>
+    <div class="cell">
+    <img src="ph1.PNG">
+    <div class="info">
+    <b>Tony</b>
+    <b>Gyeong Su Han</b>
+    <b>hang079@newschool.edu</b>
+    </div>
+        </div> 
+    <div class="cell">
+        <img src="ph1.PNG">
+        <div class="info">
+        <b>Tony</b>
+        <b>Gyeong Su Han</b>
+        <b>hang079@newschool.edu</b>
+        </div>
+        </div> 
+</body>
+</html>
+
+<!DOCTYPE html>
+<head>
+    <title>Layout Test</title>
+    <style>
+        img{
+            height: 150px;
+            width: auto;
+        }
+        .cell{
+            display: flex;
+            align-items: center;
+            gap: 15px
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        h1, h2, h3{
+            margin: 0;
+        }
+    </style>
+</head>
+    <div class="cell">
+    <img src="ph1.PNG">
+    <div class="info">
+    <h1>Tony</h1>
+    <h2>Gyeong Su Han</h2>
+    <h3>hang079@newschool.edu</h3>
+    </div>
+    </div> 
+</body>
+</html>
